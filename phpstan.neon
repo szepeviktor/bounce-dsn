@@ -1,0 +1,10 @@
+parameters:
+    paths:
+        - src/
+    excludePaths:
+        # TO BE rewritten
+        - src/Provider/Mailjet.php
+    level: max
+    ignoreErrors:
+        # Twig
+        - '#^Call to an undefined method Twig\\Extension\\ExtensionInterface::setEscaper\(\)\.$#'
